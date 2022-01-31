@@ -33,7 +33,59 @@ void loop() {
 }
 
 
+Delete the code and change the code into the following...
 
+
+**#Step 6: Finishing it up**
+#include <Adafruit_NeoPixel.h>
+
+#define PIN        5
+
+#define NUMPIXELS 12
+
+Adafruit_NeoPixel pixels(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ800);
+
+#define DELAYVAL 4000
+  void setup() {
+  pixels.begin();
+}
+
+void loop() {
+  pixels.clear();
+  for(int i=0; i<NUMPIXELS; i++) {
+
+    pixels.setPixelColor(i, pixels.Color(0, 150, 0));
+
+    pixels.show();
+
+    }     delay(DELAYVAL);
+    pixels.clear(); 
+  for(int i=0; i<NUMPIXELS; i++) {
+
+    pixels.setPixelColor(i, pixels.Color(150, 0, 0));
+
+    pixels.show();  
+  } delay(DELAYVAL);
+  for(int j=0; j<50; j++){ 
+  for(int i=0; i<NUMPIXELS; i++) {
+      if(j%2)
+        pixels.setPixelColor(i, pixels.Color(100, 100, 100));
+      else
+        pixels.setPixelColor(i, pixels.Color (0, 0, 0));
+      pixels.show();
+  }   delay(50);
+}
+}
+
+
+
+Help tools:
+![WhatsApp Image 2022-01-31 at 19 45 30](https://user-images.githubusercontent.com/91546248/151876525-27376f17-ad6b-411a-a43f-cb0710be102c.jpeg)
+
+
+
+
+#Errors/mistakes
 **#Step 4: the code**
 
 Rood groen rood groen rood groen rood groen 
@@ -108,59 +160,8 @@ void loop() {
   } delay(DELAYVAL);
 }
 
-
-
-**#Step 6: Finishing it up**
-#include <Adafruit_NeoPixel.h>
-
-#define PIN        5
-
-#define NUMPIXELS 12
-
-Adafruit_NeoPixel pixels(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ800);
-
-#define DELAYVAL 4000
-  void setup() {
-  pixels.begin();
-}
-
-void loop() {
-  pixels.clear();
-  for(int i=0; i<NUMPIXELS; i++) {
-
-    pixels.setPixelColor(i, pixels.Color(0, 150, 0));
-
-    pixels.show();
-
-    }     delay(DELAYVAL);
-    pixels.clear(); 
-  for(int i=0; i<NUMPIXELS; i++) {
-
-    pixels.setPixelColor(i, pixels.Color(150, 0, 0));
-
-    pixels.show();  
-  } delay(DELAYVAL);
-  for(int j=0; j<50; j++){ 
-  for(int i=0; i<NUMPIXELS; i++) {
-      if(j%2)
-        pixels.setPixelColor(i, pixels.Color(100, 100, 100));
-      else
-        pixels.setPixelColor(i, pixels.Color (0, 0, 0));
-      pixels.show();
-  }   delay(50);
-}
-}
-
-Help tools:
-![WhatsApp Image 2022-01-31 at 19 45 30](https://user-images.githubusercontent.com/91546248/151876525-27376f17-ad6b-411a-a43f-cb0710be102c.jpeg)
-
-
-
-#Errors/mistakes
-
-
 #Sources
 - https://docs.google.com/document/d/1l_9xpU-n7Rhxj-L3wI72Kvc3GQ9q6tFl955J2NTYF9k/edit#
-- 
+- https://www.arduino.cc/reference/en/
 
 
