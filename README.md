@@ -5,12 +5,12 @@ ESP8266
 Ledstrip
 Laptop
 
-#Step 1 : Connecting the cables
+**#Step 1 : Connecting the cables**
 - Connect the +5V wire to the 3V3 pin (in my case the yellow cable)
 - Connect the DIN wire to the D5 pin (in my case the green cable)
 - Connect the GND wire to the GND pin (in my case the (blue cable)
 
-#Step 2: installing adafruit
+**#Step 2: installing adafruit**
 Arduino has libraries with examples that enable you to get a lot of example code and we will use this to easily connect with our led strip.
 
 If you don't have the arduino program you can download it here: https://www.arduino.cc/en/software
@@ -18,7 +18,8 @@ If you don't have the arduino program you can download it here: https://www.ardu
 Now open the arduino program and go to Sketch / include library / manage libraries…
 Search and install the latest version of "Adafruit Neopixel".
 
-#Step 3: the code
+
+**#Step 3: the code**
 when you start up adruino you start with the code:
 
 void setup() {
@@ -33,7 +34,7 @@ void loop() {
 
 
 
-#Step 4: the code
+**#Step 4: the code**
 
 Rood groen rood groen rood groen rood groen 
 void loop() {
@@ -50,7 +51,7 @@ void loop() {
 
 
 
-#Step 5: the code
+**#Step 5: the code**
 
 // NeoPixel Ring simple sketch (c) 2013 Shae Erisson
 // Released under the GPLv3 license to match the rest of the
@@ -109,7 +110,7 @@ void loop() {
 
 
 
-#Step 6: Finishing it up
+**#Step 6: Finishing it up**
 #include <Adafruit_NeoPixel.h>
 
 #define PIN        5
