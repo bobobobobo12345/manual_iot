@@ -99,7 +99,9 @@ Help tools:
 #Errors/mistakes
 **#Step 4: the code**
 
-Rood groen rood groen rood groen rood groen 
+This wil make the lights go red green red green etc.
+
+
 void loop() {
   pixels.clear(); // Set all pixel colors to 'off'
   for(int i=0; i<NUMPIXELS; i++) {
