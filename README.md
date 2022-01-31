@@ -9,6 +9,11 @@ Laptop
 - Connect the +5V wire to the 3V3 pin (in my case the yellow cable)
 - Connect the DIN wire to the D5 pin (in my case the green cable)
 - Connect the GND wire to the GND pin (in my case the (blue cable)
+- Connect the usb c or usb port to your laptop or computer (usb C in my case) 
+![IMG_1384](https://user-images.githubusercontent.com/91546248/151878379-815c3b14-fdf0-4929-86eb-076112d23ea0.jpg)
+![IMG_1386](https://user-images.githubusercontent.com/91546248/151879057-ae8aa8bb-2fd4-4ffc-9bff-c8d90b9def9e.jpg)
+![IMG_1387](https://user-images.githubusercontent.com/91546248/151879118-6c20f13a-0b0c-42e6-8701-7a63b385145e.jpg)
+![IMG_1388](https://user-images.githubusercontent.com/91546248/151879155-198b1e7d-6e6b-4057-86a6-0e420cc18b08.jpg)
 
 **#Step 2: installing adafruit**
 Arduino has libraries with examples that enable you to get a lot of example code and we will use this to easily connect with our led strip.
@@ -36,7 +41,7 @@ void loop() {
 Delete the code and change the code into the following...
 
 
-**#Step 6: Finishing it up**
+**#Step 4: the code**
 #include <Adafruit_NeoPixel.h>
 
 #define PIN        5
@@ -77,6 +82,12 @@ void loop() {
 }
 }
 
+**#Step 5: upload the code**
+
+The result:
+![IMG_1395](https://user-images.githubusercontent.com/91546248/151879448-b6ecd675-0264-4405-8519-ff7c7ca8cc47.jpg)
+![IMG_1393](https://user-images.githubusercontent.com/91546248/151879458-b4125f77-303e-45e5-9a18-cd05beb47732.jpg)
+![IMG_1394](https://user-images.githubusercontent.com/91546248/151879463-a95777f6-3f6b-43e9-b7b6-fb6f0109defb.jpg)
 
 
 Help tools:
