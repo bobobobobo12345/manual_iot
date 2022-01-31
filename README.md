@@ -77,3 +77,7 @@ void loop() {
 #Errors/mistakes
 
 
+#Sources
+https://docs.google.com/document/d/1l_9xpU-n7Rhxj-L3wI72Kvc3GQ9q6tFl955J2NTYF9k/edit#
+
+
