@@ -81,7 +81,7 @@ void loop() {
   for(int j=0; j<50; j++){ 
   for(int i=0; i<NUMPIXELS; i++) {
       if(j%2)
-        pixels.setPixelColor(i, pixels.Color(100, 100, 100));
+        pixels.setPixelColor(i, pixels.Color(0, 0, 150));
       else
         pixels.setPixelColor(i, pixels.Color (0, 0, 0));
       pixels.show();
@@ -94,7 +94,7 @@ void loop() {
 Click on the upload button in arduino:
 <img width="200" alt="Screenshot 2022-02-01 at 15 15 08" src="https://user-images.githubusercontent.com/91546248/151984498-19ffc431-7a21-4353-ab2e-4bd32b91d4da.png">
 
-The code that we uploaded wil make your entire ledstrip go on and start with the color green than after 4000 milliseconds change to red than after 4000 milliseconds again the leds will change to white and blink 50 times.
+The code that we uploaded wil make your entire ledstrip go on and start with the color green than after 4000 milliseconds change to red than after 4000 milliseconds again the leds will change to blue and blink 50 times.
 
 The result:
 ![IMG_1395](https://user-images.githubusercontent.com/91546248/151879448-b6ecd675-0264-4405-8519-ff7c7ca8cc47.jpg)
