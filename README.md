@@ -37,12 +37,13 @@ void loop() {
   // put your main code here, to run repeatedly:
 
 }
-'''
+```
 
 Delete the code and change the code into the following...
 
 
 **#Step 4: the code**
+```
 #include <Adafruit_NeoPixel.h>
 
 #define PIN        5
@@ -82,6 +83,7 @@ void loop() {
   }   delay(50);
 }
 }
+```
 
 **#Step 5: upload the code**
 
@@ -102,7 +104,7 @@ Help tools:
 
 This wil make the lights go red green red green etc.
 
-
+```
 void loop() {
   pixels.clear(); // Set all pixel colors to 'off'
   for(int i=0; i<NUMPIXELS; i++) {
@@ -114,11 +116,11 @@ void loop() {
     delay(DELAYVAL);
   }
 }
-
+```
 
 
 **#Step 5: the code**
-
+```
 // NeoPixel Ring simple sketch (c) 2013 Shae Erisson
 // Released under the GPLv3 license to match the rest of the
 // Adafruit NeoPixel library
@@ -173,7 +175,7 @@ void loop() {
     // Pause before next pass through loop
   } delay(DELAYVAL);
 }
-
+```
 #Sources
 - https://docs.google.com/document/d/1l_9xpU-n7Rhxj-L3wI72Kvc3GQ9q6tFl955J2NTYF9k/edit#
 - https://www.arduino.cc/reference/en/
