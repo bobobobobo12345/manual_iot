@@ -27,6 +27,7 @@ Search and install the latest version of "Adafruit Neopixel".
 **#Step 3: the code**
 when you start up adruino you start with the code:
 
+```
 void setup() {
   // put your setup code here, to run once:
 
@@ -36,7 +37,7 @@ void loop() {
   // put your main code here, to run repeatedly:
 
 }
-
+'''
 
 Delete the code and change the code into the following...
 
