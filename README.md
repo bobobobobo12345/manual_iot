@@ -22,12 +22,11 @@ Make sure you have the following equipment before you start this manual.
 ![IMG_1388](https://user-images.githubusercontent.com/91546248/151879155-198b1e7d-6e6b-4057-86a6-0e420cc18b08.jpg)
 
 # Step 2: installing adafruit
-Arduino has libraries with examples that enable you to get a lot of example code and we will use this to easily connect with our led strip.
-
-If you don't have the arduino program you can download it here: https://www.arduino.cc/en/software
-
-Now open the arduino program and go to Sketch / include library / manage libraries…
-Search and install the latest version of "Adafruit Neopixel".
+- With the program ‘Arduino’ we can install libraries. The library that we are going to download gives us the ability to use pre-written code. This makes it easier to make a code to communicate with your ledstrip.
+- Use this link to install Arduino: https://www.arduino.cc/en/software
+- Open up Arduino
+- Go to Sketch / include library / manage libraries…
+- Search and install the latest version of ‘Adafruit Neopixel’.
 
 
 # Step 3: the code
