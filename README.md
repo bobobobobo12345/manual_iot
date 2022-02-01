@@ -46,6 +46,7 @@ void loop() {
 ```
 
 Delete the code and change the code into the following...
+Make sure you put the right amount of NUMPIXELS, in my case I've got 12 ledstrippixels.
 
 ```
 #include <Adafruit_NeoPixel.h>
@@ -89,7 +90,7 @@ void loop() {
 }
 ```
 
-# Step 5: upload the code
+# Step 4: upload the code
 Click on the upload button in arduino:
 <img width="200" alt="Screenshot 2022-02-01 at 15 15 08" src="https://user-images.githubusercontent.com/91546248/151984498-19ffc431-7a21-4353-ab2e-4bd32b91d4da.png">
 
@@ -109,7 +110,7 @@ https://www.arduino.cc/reference/en/
 
 
 
-#Errors/mistakes
+#Errors/mistakes/options
 **#This code makes the lights go red green red green red green**
 
 This wil make the lights go red green red green etc.
