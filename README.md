@@ -100,7 +100,7 @@ Help tools:
 
 
 #Errors/mistakes
-**#Step 4: the code**
+**#This code makes the lights go red green red green red green**
 
 This wil make the lights go red green red green etc.
 
@@ -118,8 +118,16 @@ void loop() {
 }
 ```
 
+**#Here i forgot that the J should be a j**
+Make sure you use CAPITAL and non capital letters the right way in your code. Otherwise you will get an error message and you won't be able to upload to code.
 
-**#Step 5: the code**
+<img width="503" alt="Screenshot 2022-01-31 at 20 30 11" src="https://user-images.githubusercontent.com/91546248/151982926-5437a18b-759b-4116-8609-840b0f57cc75.png">
+
+<img width="499" alt="Screenshot 2022-01-31 at 20 30 22" src="https://user-images.githubusercontent.com/91546248/151982714-a8a67a35-e580-46b6-a58b-f8ea94b012c9.png">
+
+
+
+**#the code**
 ```
 // NeoPixel Ring simple sketch (c) 2013 Shae Erisson
 // Released under the GPLv3 license to match the rest of the
