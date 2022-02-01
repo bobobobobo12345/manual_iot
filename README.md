@@ -1,4 +1,4 @@
-# manual_iot
+# Manual_iot
 In this manual I will explain how to control a ledstrip with a laptop and a ESP8266.
 
 
