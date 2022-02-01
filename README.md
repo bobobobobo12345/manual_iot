@@ -10,7 +10,7 @@ Make sure you have the following equipment before you start this manual.
 - Laptop or computer
 - USB C cable
 
-**# Step 1 : Connecting the cables**
+# Step 1 : Connecting the cables
 - Connect the +5V wire to the 3V3 pin (in my case the yellow cable)
 - Connect the DIN wire to the D5 pin (in my case the green cable)
 - Connect the GND wire to the GND pin (in my case the (blue cable)
