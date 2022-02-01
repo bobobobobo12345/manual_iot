@@ -1,15 +1,21 @@
 # manual_iot
+In this manual I will explain how to control a ledstrip with a laptop and a ESP8266.
+
 
 # Necessities
-ESP8266
-Ledstrip
-Laptop
+Make sure you have the following equipment before you start this manual. 
+ 
+- ESP8266
+- Ledstrip
+- Laptop or computer
+- USB C cable
 
 **#Step 1 : Connecting the cables**
 - Connect the +5V wire to the 3V3 pin (in my case the yellow cable)
 - Connect the DIN wire to the D5 pin (in my case the green cable)
 - Connect the GND wire to the GND pin (in my case the (blue cable)
-- Connect the usb c or usb port to your laptop or computer (usb C in my case) 
+- Connect the usb c to the ESP8266 and your laptop or computer (in my case laptop)
+
 ![IMG_1384](https://user-images.githubusercontent.com/91546248/151878379-815c3b14-fdf0-4929-86eb-076112d23ea0.jpg)
 ![IMG_1386](https://user-images.githubusercontent.com/91546248/151879057-ae8aa8bb-2fd4-4ffc-9bff-c8d90b9def9e.jpg)
 ![IMG_1387](https://user-images.githubusercontent.com/91546248/151879118-6c20f13a-0b0c-42e6-8701-7a63b385145e.jpg)
