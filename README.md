@@ -89,7 +89,7 @@ void loop() {
 }
 ```
 
-**#Step 5: upload the code**
+# Step 5: upload the code
 Click on the upload button in arduino:
 <img width="200" alt="Screenshot 2022-02-01 at 15 15 08" src="https://user-images.githubusercontent.com/91546248/151984498-19ffc431-7a21-4353-ab2e-4bd32b91d4da.png">
 
@@ -101,6 +101,9 @@ The result:
 
 
 Help tools:
+The following link and photo are help tools to help you understand Arduino and problems that you may find
+
+https://www.arduino.cc/reference/en/
 ![WhatsApp Image 2022-01-31 at 19 45 30](https://user-images.githubusercontent.com/91546248/151876525-27376f17-ad6b-411a-a43f-cb0710be102c.jpeg)
 
 
